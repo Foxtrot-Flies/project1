@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body {
+    color: #181818;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #6F2F15;
+    background-image: url(aotdrip.jpg);
+}
+
+#container {
+    width: 768px;
+    height: auto;
+    margin: auto;
+    background-color: white;	
+}
+	
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url(AttackOnJacob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 53% 62%;
+}
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line up at the header.*/
+main {
+    width: 578px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    height: 1600px;
+}
+article {
+    margin-bottom: 30px;
+}
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+#container {
+}
+/*Float the Aside so it displays next to Main.*/
+aside {
+    height: 1600px;
+    width: 150px;
+    float: left;
+    clear: none;
+    font-size: medium;
+    background-color: #B0B0AF;
+}
+
+h1 {
+    color: #190B0A;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h3 {
+    font-size: 15px;
+}
